@@ -144,7 +144,7 @@ Si on tente à retirer un montant supérieur au solde du compte, on aura une exc
 ![img.png](src/main/java/ma/enset/captures/img.png)
 ### Pour la sécurité
 Nous allons créer les classes suivantes:
-- **SecurityAspect** : qui contient une méthode **around** qui sera exécutée avant et après l'exécution des méthodes de la classe **IMetierBanqueImpl**. Cette classe contient aussi une méthode **pc2** qui permet de définir le point de coupe.
+- **SecurityAspect** : qui contient une méthode **around** qui sera exécutée avant et après l'exécution des méthodes de la classe **IMetierBanqueImpl**. Cette classe contient aussi une méthode **startPC** qui permet de définir le point de coupe.
 ```java
 @Aspect
 public class SecurityAspect {

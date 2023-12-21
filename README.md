@@ -83,7 +83,7 @@ public class IMetierBanqueImpl implements IMetierBanque {
     }
 }
 ```
-#### Pour le log
+### Pour le journalisation
 Nous allons créer les classes suivantes:
 - **LogAspect** : qui contient une méthode **around** qui sera exécutée avant et après l'exécution des méthodes de la classe **IMetierBanqueImpl**. Cette classe contient aussi une méthode **pc1** qui permet de définir le point de coupe.
 ```java
@@ -116,10 +116,10 @@ public class LoggingAspect {
 
 }
 ```
-On va utiliser le fichier **log.xml** pour stocker les logs. 
+On va enrégistrer les logs dans le fichier **log.xml**.
 
 ![img_1.png](src/main/java/ma/enset/captures/img_1.png)
-#### Pour vérifier le solde du compte avant chaque opération de retrait
+### Vérifier le solde du compte avant chaque opération de retrait
 Nous allons créer les classes suivantes:
 - **PatchRetraitAspect**
 ```java
@@ -141,7 +141,7 @@ public class PatchRetraitAspect {
 ```
 Si on tente à retirer un montant supérieur au solde du compte, on aura une exception **RuntimeException**.
 ![img.png](src/main/java/ma/enset/captures/img.png)
-#### Pour la sécurité
+### Pour la sécurité
 Nous allons créer les classes suivantes:
 - **SecurityAspect** : qui contient une méthode **around** qui sera exécutée avant et après l'exécution des méthodes de la classe **IMetierBanqueImpl**. Cette classe contient aussi une méthode **pc2** qui permet de définir le point de coupe.
 ```java

@@ -94,7 +94,7 @@ public class LoggingAspect {
 
 
     public LoggingAspect() throws IOException {
-        logger.addHandler(new FileHandler("test.xml"));
+        logger.addHandler(new FileHandler("log.xml"));
         logger.setUseParentHandlers(false);
     }
 

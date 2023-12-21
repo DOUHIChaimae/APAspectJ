@@ -1,4 +1,4 @@
-## Aspect Oriented Programming with AspectJ and Spring AOP - AspectJ User case ✍️
+## AspectJ Use case ✍️
 
 
 ### Introduction

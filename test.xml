@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-12-21T21:31:11</date>
+  <millis>1703190671788</millis>
+  <sequence>0</sequence>
+  <logger>ma.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>ma.enset.metier.IMetierBanqueImpl</class>
+  <method>addCompte_aroundBody1$advice</method>
+  <thread>1</thread>
+  <message>Avant l'exécution de la méthode void ma.enset.metier.IMetierBanqueImpl.addCompte(Compte)</message>
+</record>
+<record>
+  <date>2023-12-21T21:31:11</date>
+  <millis>1703190671815</millis>
+  <sequence>1</sequence>
+  <logger>ma.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>ma.enset.metier.IMetierBanqueImpl</class>
+  <method>addCompte_aroundBody1$advice</method>
+  <thread>1</thread>
+  <message>Après l'exécution de la méthodevoid ma.enset.metier.IMetierBanqueImpl.addCompte(Compte)</message>
+</record>
+<record>
+  <date>2023-12-21T21:31:11</date>
+  <millis>1703190671816</millis>
+  <sequence>2</sequence>
+  <logger>ma.enset.aspects.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>ma.enset.metier.IMetierBanqueImpl</class>
+  <method>addCompte_aroundBody1$advice</method>
+  <thread>1</thread>
+  <message>Durée d'exécution de la méthode void ma.enset.metier.IMetierBanqueImpl.addCompte(Compte) est 32 ms</message>
+</record>
+</log>

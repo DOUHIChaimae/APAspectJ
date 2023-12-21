@@ -2,46 +2,10 @@
 
 
 ### Introduction
-L'objectif de cette activité est de mettre en place un ensemble d'aspects : log, sécurité et d'autres aspects qui sont utiles pour notre application à l'aide de Spring AOP.
+L'objectif de cette activité est de mettre en place un ensemble d'aspects : log, sécurité et d'autres aspects qui sont utiles pour notre application à l'aide de AspectJ.
 
 ### Application
 ![img_4.png](src/main/java/ma/enset/captures/img_4.png)
-### Ajout des dépendances
-Pour utiliser Spring AOP, il faut ajouter les dépendances suivantes dans le fichier pom.xml:
-```xml
-
-<dependencies>
-    <dependency>
-
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-core</artifactId>
-        <version>5.2.5.RELEASE</version>
-    </dependency>
-    <dependency>
-
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-context</artifactId>
-        <version>5.2.5.RELEASE</version>
-    </dependency>
-    <dependency>
-
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-beans</artifactId>
-        <version>5.2.5.RELEASE</version>
-    </dependency>
-    <dependency>
-
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-aop</artifactId>
-        <version>5.2.5.RELEASE</version>
-    </dependency>
-    <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-aspects</artifactId>
-        <version>5.2.5.RELEASE</version>
-    </dependency>
-</dependencies>
-```
 
 ### Création des classes
 Nous avons créé les classes suivantes:
@@ -173,4 +137,4 @@ Si on tente à exécuter l'application sans entrer le bon username et le bon pas
 
 
 ## Conclusion
-Dans cette activité, nous avons appris à utiliser Spring AOP pour implémenter des fonctionnalités transversales dans notre application.
+Dans cette activité, nous avons appris à utiliser AspectJ pour implémenter des fonctionnalités transversales dans notre application.

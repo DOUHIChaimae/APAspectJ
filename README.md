@@ -140,6 +140,7 @@ public class PatchRetraitAspect {
 }
 ```
 Si on tente à retirer un montant supérieur au solde du compte, on aura une exception **RuntimeException**.
+
 ![img.png](src/main/java/ma/enset/captures/img.png)
 ### Pour la sécurité
 Nous allons créer les classes suivantes:
